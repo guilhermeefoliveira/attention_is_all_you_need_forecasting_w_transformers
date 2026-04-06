@@ -1,4 +1,4 @@
-# Attention is All You Need — Time Series Forecasting with Transformers
+# Attention is All You Need - Time Series Forecasting with Transformers
 
 A from-scratch implementation of a Transformer-based model for univariate time series forecasting using PyTorch. The project validates the architecture on synthetic data and then applies it to real-world daily gold prices.
 
@@ -17,7 +17,7 @@ The Transformer architecture, introduced in [Vaswani et al. (2017)](https://arxi
 └── .python-version                                           # Python version pinned for uv
 ```
 
-The notebook is organized in six chapters:
+The notebook is organized into six chapters:
 
 | Chapter | Description |
 |---------|-------------|
@@ -86,7 +86,7 @@ tqdm
 git clone https://github.com/guilhermeefoliveira/<repo-name>.git
 cd <repo-name>
 
-# Install dependencies and create environment with uv
+# Install dependencies and create an environment with uv
 uv sync
 
 # Run the notebook
